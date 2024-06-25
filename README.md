@@ -18,7 +18,7 @@ Cordova plugin for integrating the [SafetyNet Recaptcha API](https://developer.a
 ### Plugin Versions
 
 | Plugin version | Cordova | Cordova Android | minSdkVersion | SafetyNet |
-| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | 1.0.0 | >= 10.0.0 | >= 8.0.0 |  >= 19 | 18.0.1 |
 
 ### Install latest version from NPM
