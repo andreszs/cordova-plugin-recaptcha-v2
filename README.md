@@ -38,7 +38,7 @@ Cordova plugin for integrating the [SafetyNet Recaptcha API](https://developer.a
 ```bash
   cordova plugin add https://github.com/andreszs/cordova-plugin-recaptcha-v2
 ```
-⚠ Note that using Play Services SafetyNet 18.1.0 or newer will enforce a minSdk level of 21, while 18.0.1 still works with 19.
+⚠ Note that using Play Services SafetyNet 18.1.0 or newer will enforce a minSdk level of 21, while 18.0.1 still works with minSdk 19.
 
 # Methods
 
@@ -52,10 +52,10 @@ cordova.plugins.Recaptcha.verify(onSuccess, onFailure, [args])
 
 | **args** | Object with `siteKeyAndroid` and optional `siteKeyWeb` strings |
 | --- | --- |
-| siteKeyAndroid | **String**: A *v2 Android* site key from the [v3 Admin Console](https://www.google.com/recaptcha/admin/ "v3 Admin Console"). Required for the Android platform. |
-| siteKeyWeb | **String**: A *v2 Invisible* site key from the [v3 Admin Console](https://www.google.com/recaptcha/admin/ "v3 Admin Console"). Required only for the browser platform. |
+| siteKeyAndroid | **String**: A *v2 Android* site key from the v3 Admin Console. Required for the Android platform. |
+| siteKeyWeb | **String**: A *v2 Invisible* site key from the v3 Admin Console. Optional for the browser platform. |
 
-⚠ As of 2024, you can no longer create new Android site keys from the legacy v3 Admin Console, but you can add your app's package name to existing v2 Android keys and reuse them in any app. This is because the SafetyNet Recaptcha API has been deprecated in favor of the Recaptcha Enterprise API. Note that Enterprise keys do not work with SafetyNet Recaptcha API.
+⚠ As of 2024, you can no longer create new Android site keys from the legacy [v3 Admin Console](https://www.google.com/recaptcha/admin/ "v3 Admin Console"), but you can add your app's package name to existing v2 Android keys and reuse them in any app. This is because the SafetyNet Recaptcha API has been deprecated in favor of the Recaptcha Enterprise API. Note that Enterprise keys do not work with SafetyNet Recaptcha API.
 
 ### Return values
 
