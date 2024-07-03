@@ -82,7 +82,7 @@ cordova.plugins.Recaptcha.verify(onSuccess, onFailure, args);
 
 # Plugin demo app
 
-- [Compiled APK and reference](https://www.andreszsogon.com/cordova-recaptcha-v2-demo/)
+- [Compiled APK and reference](https://www.andreszsogon.com/com-andreszs-recaptcha-v2-demo/)
 - [Source code for www folder](https://github.com/andreszs/cordova-plugin-demos)
 
 <img src="https://github.com/andreszs/cordova-plugin-demos/blob/main/com.andreszs.recaptcha.v2.demo/screenshots/recaptcha-v2-001.png?raw=true" width="200" /> <img src="https://github.com/andreszs/cordova-plugin-demos/blob/main/com.andreszs.recaptcha.v2.demo/screenshots/recaptcha-v2-002.png?raw=true" width="200" /> <img src="https://github.com/andreszs/cordova-plugin-demos/blob/main/com.andreszs.recaptcha.v2.demo/screenshots/recaptcha-v2-003.png?raw=true" width="200" /> <img src="https://github.com/andreszs/cordova-plugin-demos/blob/main/com.andreszs.recaptcha.v2.demo/screenshots/recaptcha-v2-004.png?raw=true" width="200" />
