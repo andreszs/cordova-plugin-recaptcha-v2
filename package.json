@@ -34,7 +34,7 @@
     "bugs": {
         "url": "https://github.com/andreszs/cordova-plugin-recaptcha-v2/issues"
     },
-    "homepage": "https://bitbucket.org/packt-internal/cordova-plugin-recaptcha-v2",
+    "homepage": "https://github.com/andreszs/cordova-plugin-recaptcha-v2",
     "author": "Andres Zsögön",
     "license": "MIT"
 }
